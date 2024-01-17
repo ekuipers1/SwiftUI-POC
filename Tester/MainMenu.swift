@@ -21,6 +21,7 @@ struct MainMenu: View {
         case scrollMot
         case mapView
         case pocView
+        case typography
         
     }
     
@@ -28,7 +29,9 @@ struct MainMenu: View {
         Option(text: "Language Recognition", symbolName: "globe", destination: .languaRec),
         Option(text: "Scroll Motion", symbolName: "scroll", destination: .scrollMot),
         Option(text: "Map view", symbolName: "map", destination: .mapView),
-        Option(text: "POC view", symbolName: "questionmark", destination: .pocView),
+        Option(text: "API view", symbolName: "questionmark", destination: .pocView),
+        Option(text: "Typography view", symbolName: "textformat", destination: .typography),
+        
         // Add more options here
     ]
     
@@ -83,6 +86,8 @@ struct MainMenu: View {
             MapView()
         case .pocView:
             pocView()
+        case .typography:
+            TypographyView()
         }
     }
 }
