@@ -44,11 +44,6 @@ struct TypographyView: View {
                             } else if index == 7 {
                                 Text("Predefined text styles")
                             }
-                            
-                            
-                            
-                            
-                            
                         },
                         content: {
                             // Custom content for each child view

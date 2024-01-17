@@ -22,8 +22,11 @@ struct MapView: View {
                     self.selectedCircuit = circuit
                     self.showingSheet = true
                 }) {
-                    Image(systemName: "mappin.circle")
-                        .foregroundColor(.red)
+                    Image(systemName: "mappin.circle.fill")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 50, height: 50)
+                        .foregroundColor(sunsetOrange)
                 }
             }
         }

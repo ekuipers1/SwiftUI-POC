@@ -73,22 +73,14 @@
 		AA2F17102B07C34F00E929ED /* Tester */ = {
 			isa = PBXGroup;
 			children = (
+				AA9594E52B582E48004E2881 /* Helpers */,
+				AA9594E42B582E1E004E2881 /* Views */,
 				AA6D3A282B289BEA00A2D788 /* Info.plist */,
 				AA2F17112B07C34F00E929ED /* TesterApp.swift */,
-				AA2F17132B07C34F00E929ED /* ContentView.swift */,
-				AAFFE12D2B19EF8A0064A91B /* MainMenu.swift */,
-				AA2193A72B568CA7007CFE98 /* TypographyView.swift */,
-				AAA0BBD02B1E33C8001E3BFB /* pocView.swift */,
-				AAA0BBCC2B1A2077001E3BFB /* MapView.swift */,
-				AAD88DF22B1A04F0004F94DE /* Extensions.swift */,
-				AAA0BBCE2B1A21D7001E3BFB /* Helpers.swift */,
-				AAFFE12B2B19EAA00064A91B /* NavigationView.swift */,
-				AA2F17202B07C3FE00E929ED /* LangRecognizerView.swift */,
-				AA96C0852B08B5C100EE44E0 /* ScrollMotion.swift */,
+				AA8D3D1D2B56FFFE00E8484F /* MyPlayground.swift */,
 				AA2F17152B07C35400E929ED /* Assets.xcassets */,
 				AA2F17172B07C35400E929ED /* Tester.entitlements */,
 				AA2F17182B07C35400E929ED /* Preview Content */,
-				AA8D3D1D2B56FFFE00E8484F /* MyPlayground.swift */,
 			);
 			path = Tester;
 			sourceTree = "<group>";
@@ -99,6 +91,30 @@
 				AA2F17192B07C35400E929ED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA9594E42B582E1E004E2881 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F17202B07C3FE00E929ED /* LangRecognizerView.swift */,
+				AAA0BBCC2B1A2077001E3BFB /* MapView.swift */,
+				AA2F17132B07C34F00E929ED /* ContentView.swift */,
+				AAFFE12D2B19EF8A0064A91B /* MainMenu.swift */,
+				AAA0BBD02B1E33C8001E3BFB /* pocView.swift */,
+				AA2193A72B568CA7007CFE98 /* TypographyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA9594E52B582E48004E2881 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AAD88DF22B1A04F0004F94DE /* Extensions.swift */,
+				AAA0BBCE2B1A21D7001E3BFB /* Helpers.swift */,
+				AAFFE12B2B19EAA00064A91B /* NavigationView.swift */,
+				AA96C0852B08B5C100EE44E0 /* ScrollMotion.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
